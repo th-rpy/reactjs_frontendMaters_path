@@ -15,19 +15,19 @@
         // For now, our Reactjs code will go here
 
         // Create our first React Component and
-        const app = () => {
-            return react.createElement(
+        const App = () => {
+            return React.createElement(
                 'div',
                  {},
-                 react.createElement('h1', {}, 'Adopt Me !')
+                 React.createElement('h1', {}, 'Adopt Me !')
             )
-        }
+        };
 
         // Put our component in the 'root' div element
         ReactDOM.render(
-            react.createElement(App),
+            React.createElement(App),
             document.getElementById('root')
-        )
+        );
 
     </script>
     
