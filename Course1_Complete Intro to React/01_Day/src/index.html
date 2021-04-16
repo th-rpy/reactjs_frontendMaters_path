@@ -8,28 +8,11 @@
     <title> Day 1 !! </title>
 </head>
 <body>
+    
     <div id="root"> not rendered yet</div>
     <script src="https://unpkg.com/react@16.8.4/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.development.js"></script>
-    <script>
-        // For now, our Reactjs code will go here
-
-        // Create our first React Component and
-        const App = () => {
-            return React.createElement(
-                'div',
-                 {},
-                 React.createElement('h1', {}, 'Adopt Me !')
-            )
-        };
-
-        // Put our component in the 'root' div element
-        ReactDOM.render(
-            React.createElement(App),
-            document.getElementById('root')
-        );
-
-    </script>
+    <script src = './App.js'></script>
     
 </body>
 </html>
