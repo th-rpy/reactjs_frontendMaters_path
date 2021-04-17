@@ -4,13 +4,15 @@
   "description": "- I set up the folder (Day_1), the HTML document (index.html), and imports the CSS to begin building the course application.",
   "main": "index.js",
   "scripts": {
-    "format": "prettier  \"src/**/*.{js, html}\" --write",
+    "format": "prettier  \"src/**/*.{js, html, json, css}\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
     "prettier": "^2.2.1"
   }
 }
