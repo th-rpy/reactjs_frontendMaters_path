@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
 // Create our first React Component
-export default function  Pet (props)  {
-  return React.createElement("div", {}, [
-    React.createElement("h2", {}, props.name),
-    React.createElement("h2", {}, props.animal),
-    React.createElement("h2", {}, props.family),
-  ]);
-};
+export default function Pet(props) {
+  return (
+    <div>
+      <h1>{props.name}</h1>
+      <h1>{props.animal}</h1>
+      <h1>{props.family}</h1>
+    </div>
+  );
+}
