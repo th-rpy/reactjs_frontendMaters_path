@@ -4,9 +4,13 @@
   "description": "- I set up the folder (Day_1), the HTML document (index.html), and imports the CSS to begin building the course application.",
   "main": "index.js",
   "scripts": {
+    "format": "prettier  \"src/**/*.{js, html}\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
