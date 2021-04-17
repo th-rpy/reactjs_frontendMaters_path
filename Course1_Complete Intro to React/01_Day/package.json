@@ -4,6 +4,7 @@
   "description": "- I set up the folder (Day_1), the HTML document (index.html), and imports the CSS to begin building the course application.",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier  \"src/**/*.{js, html, json, css}\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,11 @@
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
+    "parcel-bundler": "^1.12.5",
     "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
