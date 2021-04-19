@@ -13,11 +13,10 @@ const SearchParams = () => {
     setBreeds([]);
     setBreed("");
 
-    pet.breeds(animal).then(({breed}) => {
-        const breedString = breeds.map((breedObj) =>breedObj.name);
-        setBreeds(breedString);
-    },console.error)
-
+    pet.breeds(animal).then(({ breeds }) => {
+      const breedString = breeds.map((breedObj) => breedObj.name);
+      setBreeds(breedString);
+    }, console.error);
   }, [animal, setBreeds, setBreed]);
 
   return (
